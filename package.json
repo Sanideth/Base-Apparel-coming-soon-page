@@ -1,0 +1,25 @@
+{
+  "name": "base-apparel-coming-soon-page",
+  "version": "1.0.0",
+  "description": "Base Apparel Coming Soon Page from frontendmentor.io challenges",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.css -o css/style.prefixed.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanideth/Base-Apparel-coming-soon-page.git"
+  },
+  "author": "Sandro Bochorishvili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanideth/Base-Apparel-coming-soon-page/issues"
+  },
+  "homepage": "https://github.com/Sanideth/Base-Apparel-coming-soon-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^5.0.0",
+    "postcss-cli": "^8.3.0"
+  }
+}
