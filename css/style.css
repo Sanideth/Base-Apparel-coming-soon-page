@@ -163,7 +163,8 @@ footer {
 
 .btn {
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  outline: none; }
 
 .btn-submit {
   padding: 1.2em 3em;
