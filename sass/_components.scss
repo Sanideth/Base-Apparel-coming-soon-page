@@ -87,4 +87,8 @@
   &:hover {
     opacity: 0.8;
   }
+
+  &:active {
+    box-shadow: 0 1rem 2rem var(--color-primary-desaturated-red);
+  }
 }

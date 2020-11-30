@@ -178,6 +178,8 @@ footer {
       padding: 1.2em 2em; } }
   .btn-submit:hover {
     opacity: 0.8; }
+  .btn-submit:active {
+    box-shadow: 0 1rem 2rem var(--color-primary-desaturated-red); }
 
 .u-mb-sm {
   margin-bottom: 3rem; }
