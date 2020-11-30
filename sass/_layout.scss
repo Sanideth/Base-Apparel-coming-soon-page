@@ -1,0 +1,84 @@
+.main {
+  display: flex;
+  margin-bottom: 2rem;
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+
+    position: relative;
+    padding-top: 10rem;
+  }
+
+  &__content {
+    width: 55%;
+    height: 75rem;
+    background-image: url(../img/bg-pattern-desktop.svg),
+      var(--linear-gradient-primary);
+    background-repeat: no-repeat;
+    padding: 4em 10em;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: $bp-big) {
+      padding: 4em 7em;
+    }
+    @media only screen and (max-width: $bp-medium) {
+      padding: 4em 2em;
+    }
+    @media only screen and (max-width: $bp-small) {
+      order: 2;
+      width: 100%;
+      background-image: none;
+      padding: 0 2em;
+      height: auto;
+      text-align: center;
+    }
+  }
+  &__logo-container {
+    margin-bottom: auto;
+    @media only screen and (max-width: $bp-small) {
+      position: absolute;
+      top: 3rem;
+      left: 2rem;
+      width: calc(100% - 4rem);
+    }
+  }
+  &__logo {
+    display: block;
+    @media only screen and (max-width: $bp-small) {
+      width: 15rem;
+    }
+  }
+  &__text {
+    color: var(--color-primary-desaturated-red);
+    line-height: 1.8;
+    @media only screen and (max-width: $bp-big) {
+      line-height: 1.4;
+    }
+  }
+  &__form-container {
+    margin-bottom: auto;
+  }
+
+  &__icon-arrow {
+    display: block;
+    width: 0.9rem;
+  }
+
+  &__img-container {
+    width: 45%;
+    background-image: url(../img/hero-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media only screen and (max-width: $bp-small) {
+      background-image: url(../img/hero-mobile.jpg);
+      height: 30rem;
+      width: 100%;
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+}
